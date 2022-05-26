@@ -19,3 +19,4 @@ elif(c==m):
     print("Odd")
 else:
     print("Mixed")
+    
