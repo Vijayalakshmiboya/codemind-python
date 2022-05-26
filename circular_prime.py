@@ -7,14 +7,13 @@ def prime(n):
 n=int(input())
 if prime(n):
     rev=0
-    while n:
+    while(n):
         r=n%10
-        n=n//10
         rev=rev*10+r
+        n=n//10
     if prime(rev):
         print("circular prime")
     else:
         print("prime but not a circular prime")
 else:
     print("not prime")
-        
