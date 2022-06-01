@@ -1,8 +1,7 @@
 n=int(input())
-for i in range(n):
-    for j in range(n):
-        if(j==0 or j==n-1 or j==i):
-            print('*',end=' ')
-        else:
-            print(' ',end=' ')
+for i in range(1,n+1):
+    for j in range(1,n-1):
+        print(j,end='')
+    for k in range(1,n-2):
+        print(k,end='')
     print()
