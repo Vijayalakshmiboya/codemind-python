@@ -1,6 +1,6 @@
 n=int(input())
 s=0
-while(s!=1 and s!=4):
+while(n!=1 and n!=4):
     s=0
     while(n):
         j=n%10
