@@ -1,10 +1,7 @@
 def fib(n):
-    a,b=0,1
-    print(a,b,end=' ')
-    for i in range(2,n):
-        c=a+b
-        print(c,end=' ')
-        a=b
-        b=c
+    if(n<=1):
+        return n
+    return fib(n-1)+fib(n-2)
 n=int(input())
-fib(n)
+for i in range(n):
+    print(fib(i),end=' ')
