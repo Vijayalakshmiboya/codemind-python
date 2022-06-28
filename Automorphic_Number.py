@@ -6,6 +6,6 @@ while(n>0):
     c=c*10
     n=n//10
 if(sq%c==temp):
-        print("Automorphic Number")
+    print("Automorphic Number")
 else:
-        print("Not an Automorphic Number")
+    print("Not an Automorphic Number")
