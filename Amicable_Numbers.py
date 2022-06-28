@@ -12,3 +12,4 @@ if(s1==y and s2==x):
     print("Amicable")
 else:
     print("Not Amicable")
+        
